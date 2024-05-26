@@ -7,61 +7,67 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <h2>Subtitle</h2>
-    </header>
-    <main>
-        <section id="projects">
-            <h2>Projects</h2>
+    <div class="wrapper">
+        <header>
+            <h1>Your Name</h1>
+            <h2>Subtitle</h2>
+        </header>
+        <main>
             <div class="columns">
-                <div class="column">
+                <section id="projects" class="column">
+                    <h2>Projects</h2>
                     <div class="card">
-                        <h3>Project 1</h3>
-                        <p>Short description of Project 1</p>
+                        <h3>Custom 32-Bit CPU</h3>
+                        <p>Converted machine language to assembly language using binary operators to process memory addresses.
+                            Printed processor instructions using a switch statement and enums to decipher function argument. 
+                            Encoded arguments as a 32-bit instruction using binary operators and then stored it to a pointer. 
+                            Wrote a function to shift memory and store how many instructions use memory address operands</p>
                         <a href="#">Read more</a>
                     </div>
                     <div class="card">
-                        <h3>Project 2</h3>
-                        <p>Short description of Project 2</p>
-                        <a href="#">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="blog">
-            <h2>Blog</h2>
-            <div class="columns">
-                <div class="column">
-                    <div class="card">
-                        <h3>Blog Post 1</h3>
-                        <p>Short description of Blog Post 1</p>
+                        <h3>Atmospheric River Detection</h3>
+                        <p>Simulated integrated water vapor transport in the atmosphere using Cheyenne supercomputer
+                            • Wrote a Python program using ERA5 data to filter atmospheric rivers and predict location of rainfall
+                            • Plotted output data using Cheyenne supercomputer and NCAR Command Language plotting libraries
+                            • Applied predictions using output data to alert communities in rainfall area to prepare for heavy rain</p>
                         <a href="#">Read more</a>
                     </div>
                     <div class="card">
-                        <h3>Blog Post 2</h3>
-                        <p>Short description of Blog Post 2</p>
+                        <h3>bit.mortgage</h3>
+                        <p>Implemented the 28/36 rule of real estate to build a user-friendly mortgage manager app and website
+                            • Python web server with GET request method that produced mortgage values based on user input
+                            • Allow users to select different filters that would change the ratios used in the method
+                            • Return JSON data including, among other outputs, whether the mortgage is too high based on income</p>
                         <a href="#">Read more</a>
                     </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <h3>Blog Post 3</h3>
-                        <p>Short description of Blog Post 3</p>
-                        <a href="#">Read more</a>
+                </section>
+                <section id="blog" class="column">
+                    <h2>Blog</h2>
+                    <div class="blog-container">
+                        <div class="card">
+                            <h3>Blog Post 1</h3>
+                            <p>Short description of Blog Post 1</p>
+                            <a href="#">Read more</a>
+                        </div>
+                        <div class="card">
+                            <h3>Blog Post 2</h3>
+                            <p>Short description of Blog Post 2</p>
+                            <a href="#">Read more</a>
+                        </div>
+                        <div class="card">
+                            <h3>Blog Post 3</h3>
+                            <p>Short description of Blog Post 3</p>
+                            <a href="#">Read more</a>
+                        </div>
+                        <div class="card">
+                            <h3>Blog Post 4</h3>
+                            <p>Short description of Blog Post 4</p>
+                            <a href="#">Read more</a>
+                        </div>
                     </div>
-                    <div class="card">
-                        <h3>Blog Post 4</h3>
-                        <p>Short description of Blog Post 4</p>
-                        <a href="#">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="work-experience">
-            <h2>Work Experience</h2>
-            <div class="columns">
-                <div class="column">
+                </section>
+                <section id="work-experience" class="column">
+                    <h2>Work Experience</h2>
                     <div class="card">
                         <h3>Work Experience 1</h3>
                         <p>Short description of Work Experience 1</p>
@@ -72,12 +78,12 @@
                         <p>Short description of Work Experience 2</p>
                         <a href="#">Read more</a>
                     </div>
-                </div>
+                </section>
             </div>
-        </section>
-    </main>
-    <footer>
-        <a href="#">View my resume</a>
-    </footer>
+        </main>
+        <footer>
+            <a href="#">View my resume</a>
+        </footer>
+    </div>
 </body>
 </html>
